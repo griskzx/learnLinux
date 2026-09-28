@@ -1,5 +1,11 @@
 # 学习笔记
 
+## 笔记目录
+
+- [01：Rust for Linux 入门——WSL 2、Arch 环境与内核配置](01-rust-for-linux-wsl-arch.md)
+
+## 记录格式
+
 建议按主题记录：
 
 1. 学习目标

@@ -2,6 +2,14 @@
 
 记录 Linux 内核编程的学习笔记、代码实验与问题复盘。
 
+## 当前学习记录
+
+从 STM32 Rust 嵌入式开发转向 Rust for Linux，使用 Windows 上的 WSL 2 Arch Linux 作为开发环境，计划在 QEMU 中运行实验内核。
+
+- [01：Rust for Linux 入门——WSL 2、Arch 环境与内核配置](notes/01-rust-for-linux-wsl-arch.md)
+- 已完成：Rust 工具链检查、Linux 7.2.8 源码准备、最小 Rust 模块配置。
+- 下一步：编译内核与 `rust_minimal.ko`，检查产物，再准备 QEMU 启动环境。
+
 ## 学习路线
 
 - [ ] 巩固 C 语言：指针、结构体、位操作和内存管理
@@ -17,6 +25,7 @@
 
 - `learnLinux/`：代码实验，每个实验使用独立子目录。
 - `notes/`：学习笔记与问题记录。
+- `rust-linux-lab/`：本地内核源码与构建目录，已加入 Git 忽略规则。
 
 ## 实验习惯
 

@@ -1,4 +1,7 @@
 # Build output
+# Local kernel sources, archives and lab build directories
+/rust-linux-lab/
+
 *.o
 *.a
 *.so
