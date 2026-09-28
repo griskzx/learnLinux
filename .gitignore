@@ -1,0 +1,30 @@
+# Build output
+*.o
+*.a
+*.so
+*.ko
+*.mod
+*.mod.c
+*.cmd
+Module.symvers
+modules.order
+.tmp_versions/
+build/
+
+# VM images
+*.qcow2
+*.vdi
+*.vmdk
+*.iso
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.agents/
+.codex/
+
+# Editor temporary files
+*.swp
+*~
+.DS_Store
